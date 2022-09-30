@@ -6,7 +6,7 @@
 void fill_arr(double* array, int size){
 	srand(time(NULL));
 	for(int i = 0;i < size;i++){
-		array[i] = (double)(rand() % 101 + (-50)); 
+		array[i] = (double)(rand() % 101 + (-50)) + (double)(rand() % 100)/100; 
 	}
 }
 
